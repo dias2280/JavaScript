@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <hr>
+    <section>
+        Lista de exercícios 3 – Javascript
+        Todos os exercícios deverão ser respondidos com pares de arquivos html/Javascript. <br>
+        Todos os exercícios deverão ter um título dentro da head <br>
+        O texto “Exercício x” deverá estar dentro de tags h1 <br>
+        O enunciado do exercício deverá estar dentro de uma p <br>
+    </section>
+    <section>
+        <div>
+            <h1>
+                Exercicio 1
+            </h1>
+            <p>
+                1 – Crie um documento que contenha um botão com o texto “meu botão”.
+                Crie uma função que altere o texto do botão para “meu segundo botão”.
+            </p>
+            <button id="botao1" name="botao1" onclick="mudaBotao()">Meu Botao</button>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div>
+            <h1>
+                Exercicio 2
+            </h1>
+            <p>
+                2 – Crie um parágrafo com o texto: “Execute a função para exibir seu nome”
+                Crie uma função que receba um nome por prompt;
+                Modifique o texto do parágrafo para: “Tenha um bom dia, sr (a) nome”
+            </p>
+            <button id="mudarNome" onclick="mudarNome()">Mudar Nome</button>
+            <p>“Tenha um bom dia, Sr(a) <span id="mudarNome2">nome</span>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div>
+            <h1>
+                Exercicio 3 <br>
+            </h1>
+            <p>
+                3 – Crie um input do tipo texto. <br>
+                Crie uma função que envie um alert com o texto escrito no input. <br>
+            </p>
+                <input type="text" id="mandarAlerta">
+                <button for="mandarAlerta" onclick="mandarAlerta()">Alerta</button>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div>
+            <h1>
+                Exercicio 4
+            </h1>
+            <p>
+                4 – Crie um input do tipo texto que possua o placeholder “digite seu cpf”. <br>
+
+                Crie uma função que verifique se o cpf informado possui exatamente 11 digitos. <br>
+
+                Crie alertas para quando o cpf estiver errado. <br>
+
+                Escreva o tipo do erro em um
+                aba da caixa de texto <br>
+
+                Se estiver correto, crie uma caixa de confirmação. <br>
+
+                Se clicar em OK, Exiba o texto “CPF Válido” <br>
+
+                Se clicar em cancelar, exiba o texto: “operação cancelada” <br>
+            </p>
+            <input type="text" placeholder="Digite o CPF" id="cpf">
+            <button for="cpf"onclick="validacaoCpf()">Meu Botao</button>
+
+        </div>
+    </section>
+
+
+
+
+
+    <script src="scriptGeral.js"></script>
+</body>
+
+</html> 
